@@ -309,6 +309,9 @@ item (FEAT_TRAINS, gc220, 5171) {}
 item (FEAT_TRAINS, df10, 5172) {}
 item (FEAT_TRAINS, gc160, 5173) {}
 item (FEAT_TRAINS, jy600, 5174) {}
+// 5145-5176 coded by EMB190
+item (FEAT_TRAINS, nd2, 5175) {}
+item (FEAT_TRAINS, df8, 5176) {}
 
 //25kV AC Electric, available ID range: 6144-7167 (hex 0x1800..0x1BFF)
 #define id_range_25_electric 0x1800..0x1BFF

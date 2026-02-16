@@ -237,6 +237,7 @@ STR_NAME_DF7D3000,DF7D-3000 (Diesel),DF7D-3000 (内燃)
 STR_NAME_DF7G,DF7G (Diesel Shunter),DF7G (内燃) (调车用)
 STR_NAME_DF7G5000,DF7G-5000 (Diesel Shunter),DF7G-5000 (内燃) (调车用)
 STR_NAME_DF7G8000,DF7G-8000 (Diesel Shunter),DF7G-8000 (内燃) (调车用)
+STR_NAME_DF8,DF8 (Diesel),DF8（内燃）
 STR_NAME_DF8B,DF8B (Diesel),DF8B (内燃)
 STR_NAME_DF9,DF9 (Diesel),DF9 (内燃)
 STR_NAME_DF10,DF10 (Diesel),DF10 (内燃)
@@ -253,6 +254,7 @@ STR_NAME_BEIJING_PASSENGER,Beijing (Diesel) (Passenger Type),北京 (内燃)  (�
 STR_NAME_BEIJING_FREIGHT,Beijing (Diesel) (Freight Type),北京 (内燃)  (货运型)
 STR_NAME_BEIJING_SPECIAL,Beijing (Diesel) (Special Type),北京 (内燃)  (专运型)
 STR_NAME_BEIJING_RECONNECT_FREIGHT,Beijing (Diesel) (Reconnect Freight Type),北京 (内燃)  (重联货运型)
+STR_NAME_ND2,ND2 (Diesel),ND2（内燃）
 STR_NAME_ND4,ND4 (Diesel),ND4 (内燃)
 STR_NAME_ND5,ND5 (Diesel),ND5 (内燃)
 STR_NAME_NJ2,NJ2 (Diesel),NJ2 (内燃)
@@ -533,6 +535,7 @@ STR_FULL_NAME_DF7D3000,"{BLACK}FULLNAME: {GOLD}Dongfeng 7D Diesel Locomotive 300
 STR_FULL_NAME_DF7G,{BLACK}FULLNAME: {GOLD}Dongfeng 7G Diesel Locomotive,{BLACK}全称：{GOLD}东风7G型内燃机车
 STR_FULL_NAME_DF7G5000,{BLACK}FULLNAME: {GOLD}Dongfeng 7G Diesel Locomotive 5000 Series,{BLACK}全称：{GOLD}东风7G型内燃机车5000系
 STR_FULL_NAME_DF7G8000,{BLACK}FULLNAME: {GOLD}Dongfeng 7G Diesel Locomotive 8000 Series,{BLACK}全称：{GOLD}东风7G型内燃机车8000系
+STR_FULL_NAME_DF8,{BLACK}FULLNAME: {GOLD}Dongfeng 8 Diesel Locomotive,{BLACK}全称：{GOLD}东风8型内燃机车
 STR_FULL_NAME_DF8B,{BLACK}FULLNAME: {GOLD}Dongfeng 8B Diesel Locomotive,{BLACK}全称：{GOLD}东风8B型内燃机车
 STR_FULL_NAME_DF9,"{BLACK}FULLNAME: {GOLD}Dongfeng 9 Diesel Locomotive{}{BLACK}Livery Availability: {GOLD}Blue Livery, Red Livery, Light Blue Livery",{BLACK}全称：{GOLD}东风9型内燃机车{}{BLACK}可选择的涂装：{GOLD}蓝色涂装，红色涂装，浅蓝色涂装
 STR_FULL_NAME_DF10,{BLACK}FULLNAME: {GOLD}Dongfeng 10 Diesel Locomotive,{BLACK}全称：{GOLD}东风10型内燃机车
@@ -548,6 +551,7 @@ STR_FULL_NAME_BEIJING_PASSENGER,{BLACK}FULLNAME: {GOLD}Passenger Type Beijing Di
 STR_FULL_NAME_BEIJING_FREIGHT,{BLACK}FULLNAME: {GOLD}Freight Type Beijing Diesel Locomotive,{BLACK}全称：{GOLD}北京货运型内燃机车
 STR_FULL_NAME_BEIJING_SPECIAL,{BLACK}FULLNAME: {GOLD}Special Type Beijing Diesel Locomotive,{BLACK}全称：{GOLD}北京专运型内燃机车
 STR_FULL_NAME_BEIJING_RECONNECT_FREIGHT,{BLACK}FULLNAME: {GOLD}Reconnect Freight Type Beijing Diesel Locomotive,{BLACK}全称：{GOLD}北京重联货运型内燃机车
+STR_FULL_NAME_ND2,{BLACK}FULLNAME: {GOLD}Neidian 2 Diesel Locomotive,{BLACK}全称：{GOLD}内电2型内燃机车
 STR_FULL_NAME_ND4,{BLACK}FULLNAME: {GOLD}Neidian 4 Diesel Locomotive,{BLACK}全称：{GOLD}内电4型内燃机车
 STR_FULL_NAME_ND5,{BLACK}FULLNAME: {GOLD}Neidian 5 Diesel Locomotive,{BLACK}全称：{GOLD}内电5型内燃机车
 STR_FULL_NAME_NY5,{BLACK}FULLNAME: {GOLD}Neiye 5 Diesel Locomotive,{BLACK}全称：{GOLD}内液5型内燃机车
@@ -1023,6 +1027,8 @@ STR_CHANGSHA_SHENZHEN,{ORANGE} - Changsha-Shenzhen Livery,{ORANGE} - 长沙-深�
 STR_ZHENGZHOU2,{ORANGE} - Zhengzhou Railway Bureau,{ORANGE} - 郑州铁路局
 STR_NENGYEQING48,"{BLACK} - {LTBLUE}""Little Bear of Neng-Yeqing"" {BLACK}Livery","{BLACK} - {LTBLUE}""能也庆的小熊"" {BLACK}涂装"
 STR_JIXI,{BLACK} - Jixi Coal Mine Livery,{BLACK} - 鸡西煤矿涂装
+STR_DF8_ORIGINAL,{BLACK} - {BLUE}China Raiway Blue Livery,{BLACK} - {BLUE}国铁蓝色涂装
+STR_DF8_LT,{BLACK} - {BLUE}Rio {YELLOW}Tinto {BLUE}Group {YELLOW}Livery,{BLACK} - {BLUE}力拓{YELLOW}公司{GOLD}涂装
 # Decay,,
 STR_COMFORT_VERY_LOW,{BLACK}Comfort: {RED}Very low ({COMMA}),{BLACK}舒适度：{RED}极低（{COMMA}）
 STR_COMFORT_LOW,{BLACK}Comfort: {ORANGE}Low ({COMMA}),{BLACK}舒适度：{ORANGE}较低（{COMMA}）
