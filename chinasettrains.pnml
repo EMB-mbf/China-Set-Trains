@@ -245,6 +245,7 @@
 #include "src/steam/kd7.pnml"
 #include "src/steam/sy.pnml"
 #include "src/steam/qj.pnml"
+#include "src/steam/sl7.pnml"
 
 // Diesel
 #include "src/diesel/df.pnml"

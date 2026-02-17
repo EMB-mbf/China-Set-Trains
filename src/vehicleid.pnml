@@ -246,6 +246,8 @@ item (FEAT_TRAINS, sl6, 4098) {}
 item (FEAT_TRAINS, qj, 4099) {}
 item (FEAT_TRAINS, mikai, 4100) {}
 item (FEAT_TRAINS, kd7, 4101) {}
+// 4102 coded by EMB190
+item (FEAT_TRAINS, sl7, 4102){}
 
 //Diesel, available ID range: 5120-6143 (hex 0x1400..0x17FF)
 #define id_range_diesel 0x1400..0x17FF
