@@ -213,7 +213,7 @@ STR_NAME_J5,J5 (Livestock Wagon),J5 (家畜运输车)
 STR_NAME_MIKAI,Mikai (Steam),ミカイ (蒸汽)
 STR_NAME_JF1,JF1 (Steam),JF1 (蒸汽)
 STR_NAME_SL6,SL6 (Steam),SL6 (蒸汽)
-STR_NAME_SL7,Pashina (Steam),パシナ（蒸汽）
+STR_NAME_SL7,Pashina (Steam),パシナ/SL7（蒸汽）
 STR_NAME_KD7,KD7 (Steam),KD7 (蒸汽)
 STR_NAME_QJ,QJ (Steam),QJ (蒸汽)
 STR_NAME_SY,SY (Steam),SY (蒸汽)
@@ -777,6 +777,7 @@ STR_DF11_NICKNAME,{BLACK}Nickname: {GOLD}Lion,{BLACK}昵称：{GOLD}狮子
 STR_DF11G_NICKNAME,{BLACK}Nickname: {GOLD}Pig,{BLACK}昵称：{GOLD}猪
 STR_BEIJING_PASSENGER_NICKNAME,{BLACK}Nickname: {GOLD}Little Beijing,{BLACK}昵称：{GOLD}小北京
 STR_BEIJING_SPECIAL_NICKNAME,{BLACK}Nickname: {GOLD}Big Beijing,{BLACK}昵称：{GOLD}大北京
+STR_ND2_NICKNAME,{BLACK}Nickname: {GOLD}Tiny Rome,{BLACK}昵称：{BLUE}小罗马
 STR_ND4_NICKNAME,{BLACK}Nickname: {BLUE}France Blue,{BLACK}昵称：{BLUE}法国蓝
 STR_NY5_NICKNAME,{BLACK}Nickname: {BLUE}High Powered,{BLACK}昵称：{BLUE}大马力
 STR_HXN5_NICKNAME,{BLACK}Nickname: {GOLD}Grasshopper,{BLACK}昵称：{GOLD}蚱蜢
@@ -941,8 +942,8 @@ STR_RED_WHITE,{BLACK} - {RED}Red {BLACK}and {WHITE}White,{BLACK} - {RED}红{WHIT
 STR_BLUE_RED_WHITE,{BLACK} - {BLUE}Blue-{RED}Red{WHITE}-White,{BLACK} - {BLUE}蓝{WHITE}白{RED}红{BLACK}相间涂装
 STR_BLUE_WHITE,{BLACK} - {BLUE}Blue-{RED}Red{WHITE}-White,{BLACK} - {BLUE}蓝{WHITE}白{BLACK}相间涂装
 STR_RED_BLUE_GRAY,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray,{BLACK} - {RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装
-STR_RBG_PLUG,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray {BLACK}Version With Plug Doors,{RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装，塞拉门
-STR_RBG_FOLD,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray {BLACK}Version With Folding Doors,{RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装，折页门
+STR_RBG_PLUG,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray {BLACK}Version With Plug Doors,{BLACK} - {RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装，塞拉门
+STR_RBG_FOLD,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray {BLACK}Version With Folding Doors,{BLACK} - {RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装，折页门
 STR_RED_SKYBLUE_GRAY,{BLACK} - {RED}Red-{BLUE}Sky Blue-{GRAY}Gray,{BLACK} - {RED}红{BLUE}天蓝{GRAY}灰{BLACK}相间涂装
 STR_JITONG,{BLACK} - {BLUE}Ji'ning{RED}-{WHITE}Tongliao {BLUE}Railway {BLACK}Livery,{BLACK} - {BLUE}集{RED}通{WHITE}铁{BLUE}路{BLACK}涂装
 STR_LUCHAOGANG,{BLACK} - {LTBLUE}Shanghai-Luchaogang {BLACK}Livery,{BLACK} - {LTBLUE}沪芦列车{BLACK}涂装
