@@ -123,7 +123,7 @@ item (FEAT_TRAINS, sl7) {
     }
     graphics {
         // Menu
-        additional_text:                string(STR_DESC_5, string(STR_FULL_NAME_SL7), string(STR_ALIASNAME_SL7), string(STR_LV_AVAILABLE_S ,string(STR_LIVERY_AVAILABLE), string(STR_PX7_BLUE), string(STR_PX7_GREEN), string(STR_SL7_BLACK), string(STR_SL7_BLUE), string(STR_SL7_GREEN)), string(STR_ELECTRICITY_SUPPLY_NO), string(STR_RELDEC_MEDIUM, 14));
+        additional_text:                string(STR_DESC_6,string(STR_SMR_VEHICLE), string(STR_FULL_NAME_SL7), string(STR_ALIASNAME_SL7), string(STR_LV_AVAILABLE_S ,string(STR_LIVERY_AVAILABLE), string(STR_PX7_BLUE), string(STR_PX7_GREEN), string(STR_SL7_BLACK), string(STR_SL7_BLUE), string(STR_SL7_GREEN)), string(STR_ELECTRICITY_SUPPLY_NO), string(STR_RELDEC_MEDIUM, 14));
         can_attach_wagon:               locowagon;
         cargo_subtype_text:             switch_sl7_cargo_subtype;
 
@@ -135,9 +135,9 @@ item (FEAT_TRAINS, sl7) {
         // Stats
         length:                         switch_length_2_8_6;
         cargo_capacity:                 0;
-        cost_factor:                    56;
-        running_cost_factor:            41 * runningcostfactor();
-        purchase_running_cost_factor:   164;
+        cost_factor:                    80;
+        running_cost_factor:            320 * runningcostfactor();
+        purchase_running_cost_factor:   190;
         purchase_cargo_capacity:        0;
     }
 }

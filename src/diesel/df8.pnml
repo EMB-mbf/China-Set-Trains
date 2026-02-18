@@ -1,5 +1,8 @@
 // Begin DF8
-
+switch (FEAT_TRAINS, SELF, switch_df8_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+    0: return string(STR_DF8_SERIES);
+    return CB_RESULT_NO_TEXT;
+}
 //Graphics
 
 //Purchase Menu
@@ -14,6 +17,9 @@ spriteset (spriteset_df8_original, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
 spriteset (spriteset_df8_lt, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
     template_standard ("diesel", "df8-lt")
 }
+spriteset (spriteset_df8_int, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+    template_standard ("diesel", "df8-int")
+}
 switch (FEAT_TRAINS, SELF, switch_df8_articulated_part, extra_callback_info1) {
     1..2: return df8;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
@@ -21,11 +27,13 @@ switch (FEAT_TRAINS, SELF, switch_df8_articulated_part, extra_callback_info1) {
 switch (FEAT_TRAINS, SELF, switch_df8_cargo_subtype, cargo_subtype) {
     0: return string(STR_DF8_ORIGINAL);
     1: return string(STR_DF8_LT);
+    2: return string(STR_INTERNATIONAL);
     return CB_RESULT_NO_TEXT;
 }
 switch (FEAT_TRAINS, SELF, switch_df8_graphics_subtype, cargo_subtype) {
     0: spriteset_df8_original;
     1: spriteset_df8_lt;
+    2: spriteset_df8_int;
 }
 switch (FEAT_TRAINS, SELF, switch_df8_graphics, position_in_articulated_veh % 3) {
     1: switch_df8_graphics_subtype;
@@ -61,7 +69,7 @@ item (FEAT_TRAINS, df8) {
         cargo_age_period:               185 << param_cargo_decay;
 
         // Stats
-        speed:                          140 km/h;
+        speed:                          100 km/h;
         power:                          3698 hp;
         weight:                         142 ton;
         tractive_effort_coefficient:    0.321;
@@ -89,6 +97,7 @@ item (FEAT_TRAINS, df8) {
         running_cost_factor:            48 * runningcostfactor();
         purchase_running_cost_factor:   192;
         purchase_cargo_capacity:        0;
+        name:                           switch_df8_name;
 
     }
 }

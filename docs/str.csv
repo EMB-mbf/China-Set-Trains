@@ -608,6 +608,7 @@ STR_DF4D_SERIES,DF4D Series (Diesel Locomotive),DF4D系列 (内燃机车)
 STR_DF5_SERIES,DF5 Series (Diesel Locomotive),DF5系列 (内燃机车)
 STR_DF7D_SERIES,DF7D Series (Diesel Locomotive),DF7D系列 (内燃机车)
 STR_DF7G_SERIES,DF7G Series (Diesel Locomotive),DF7G系列 (内燃机车)
+STR_DF8_SERIES,DF8 Series (DIESEL Locomotive),DF8系列 (内燃机车)
 STR_DF10_SERIES,DF10 Series (Diesel Locomotive),DF10系列 (内燃机车)
 STR_DF11_SERIES,DF11 Series (Diesel Locomotive),DF11系列 (内燃机车)
 STR_DFH1_SERIES,DFH1 Series (Diesel Locomotive),DFH1系列 (内燃机车)
@@ -674,6 +675,7 @@ STR_FR_IMPORT,Imported from France,法国进口车型
 STR_HU_IMPORT,Imported from Hungary,匈牙利进口车型
 STR_SE_IMPORT,Imported from Sweden,瑞典进口车型
 STR_JP_IMPORT,Imported from Japan,日本进口车型
+STR_RO_IMPORT,Imported from Romania,罗马尼亚进口车型
 STR_DESC_8,{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING},
 STR_DESC_6,{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING},
 STR_DESC_5,{STRING}{}{STRING}{}{STRING}{}{STRING}{}{STRING},
@@ -895,6 +897,8 @@ STR_LATER_ORANGE,{ORANGE} - Later Orange Livery,{ORANGE} - 后期橘色涂装
 STR_LATER_GREEN,{GREEN} - Later Green Livery,{GREEN} - 后期绿色涂装
 STR_RANDOM_COLOR,{BLACK} - Ramdom Color,{BLACK} - 随机颜色
 STR_RUSTYRED,{BROWN} - Rusty Red Color,{BROWN} - 锈红色
+STR_WITH_NAMEPLATE,{GOLD} - With Nameplate,{GOLD} - 带铭牌
+STR_WITHOUT_NAMEPLATE,{BLACK} - Without Nameplats,{BLACK} - 不带铭牌
 STR_XIHU,{BLACK} - {GREEN}Xi'an{YELLOW}-{GREEN}Huxian {BLACK}Railway Livery,{BLACK} - {GREEN}西户铁路{BLACK}涂装
 STR_XIHU_REVERSE,"{BLACK} - {GREEN}Xi'an{YELLOW}-{GREEN}Huxian {BLACK}Railway Livery, reversed",{BLACK} - {GREEN}西户铁路{BLACK}涂装，倒转方向
 STR_DF4D_7000,{BLACK} - {GREEN}7000-{YELLOW}Series {BLACK}Livery,{BLACK} - {GREEN}7000{YELLOW}系{BLACK}涂装
