@@ -1,5 +1,5 @@
-//Begin RW19K
-switch (FEAT_TRAINS, SELF, switch_rw19k_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
+//Begin RW19K_1
+switch (FEAT_TRAINS, SELF, switch_rw19k_1_name, getbits(extra_callback_info1, 0, 8) == 0x20? getbits(extra_callback_info1, 8, 8) : 0xFFFF) {
     0: return string(STR_25K_SERIES);
     return CB_RESULT_NO_TEXT;
 }
@@ -8,53 +8,23 @@ switch (FEAT_TRAINS, SELF, switch_rw19k_name, getbits(extra_callback_info1, 0, 8
 // Graphics
 
 // Purchase Menu
-spriteset (spriteset_rw19k_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_purchase ("coaches/25k","rw19k-blue-plugdoor")
+spriteset (spriteset_rw19k_1_purchase, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+    template_purchase ("coaches/25k","rw19kearly")
 }
 
-// Vehicle
-/* spriteset (spriteset_rw19k_blue_folddoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_standard ("coaches", "rw19k-blue-folddoor")
-}
-spriteset (spriteset_rw19k_red_folddoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_standard ("coaches", "rw19k-red-folddoor")
-} */
-spriteset (spriteset_rw19k_blue_plugdoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_standard ("coaches/25k", "rw19k-blue-plugdoor")
-}
-spriteset (spriteset_rw19k_red_plugdoor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
-    template_standard ("coaches/25k", "rw19k-red-plugdoor")
+//Vehicle
+spriteset (spriteset_rw19k_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP) {
+    template_standard ("coaches/25k", "rw19kearly")
 }
 
-switch (FEAT_TRAINS, SELF, switch_rw19k_articulated_part, extra_callback_info1) {
-    1..2: return rw19k;
+switch (FEAT_TRAINS, SELF, switch_rw19k_1_articulated_part, extra_callback_info1) {
+    1..2: return rw19k_1;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
 }
 
-/* random_switch (FEAT_TRAINS, SELF, switch_rw19k_blue) {
-    1: spriteset_rw19k_blue_folddoor;
-    1: spriteset_rw19k_blue_plugdoor;
-}
-
-random_switch (FEAT_TRAINS, SELF, switch_rw19k_red) {
-    1: spriteset_rw19k_red_folddoor;
-    1: spriteset_rw19k_red_plugdoor;
-} */
-
-switch (FEAT_TRAINS, SELF, switch_rw19k_graphics_subtype, cargo_subtype) {
-    0: spriteset_rw19k_blue_plugdoor;
-    1: spriteset_rw19k_red_plugdoor;
-}
-
 switch (FEAT_TRAINS, SELF, switch_rw19k_graphics, position_in_articulated_veh % 3) {
-    1: switch_rw19k_graphics_subtype;
+    1: spriteset_rw19k_1;
     empty_sprites;
-}
-
-switch (FEAT_TRAINS, SELF, switch_rw19k_cargo_subtype, cargo_subtype) {
-    0: return string(STR_BLUE_RED_WHITE);
-    1: return string(STR_RED_WHITE);
-    return CB_RESULT_NO_TEXT;
 }
 
 switch (FEAT_TRAINS, SELF, switch_rw19k_capacity, position_in_articulated_veh % 3) {
@@ -63,10 +33,10 @@ switch (FEAT_TRAINS, SELF, switch_rw19k_capacity, position_in_articulated_veh % 
 }
 
 
-item (FEAT_TRAINS, rw19k) {
+item (FEAT_TRAINS, rw19k_1) {
     property {
         // Menu
-        name:                           string(STR_NAME_RW19K);
+        name:                           string(STR_NAME_RW19K_1);
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
         variant_group:					2058;
@@ -100,14 +70,13 @@ item (FEAT_TRAINS, rw19k) {
     }
     graphics {
         // Menu
-        additional_text:                string(STR_DESC_3, string(STR_FULL_NAME_RW19K), string(STR_19K_LIVERY_AVAILABILITY), string(STR_COMFORT_VERY_HIGH, 640));
+        additional_text:                string(STR_DESC_3, string(STR_FULL_NAME_RW19K_1), string(STR_COMFORT_VERY_HIGH, 640));
         can_attach_wagon:               locowagon;
-        cargo_subtype_text:             switch_rw19k_cargo_subtype;
 
         // Graphics
         default:                        switch_rw19k_graphics;
-        purchase:                       spriteset_rw19k_purchase;
-        articulated_part:               switch_rw19k_articulated_part;
+        purchase:                       spriteset_rw19k_1_purchase;
+        articulated_part:               switch_rw19k_1_articulated_part;
 
         // Stats
         length:                         switch_length_2_8_2;
@@ -117,10 +86,10 @@ item (FEAT_TRAINS, rw19k) {
         running_cost_factor:            14 * runningcostfactor() * cafecostfactor() + accostfactor();
         purchase_running_cost_factor:   56;
         purchase_cargo_capacity:        16/3;
-        name:                            switch_rw19k_name;
+        name:                            switch_rw19k_1_name;
 
     }
 }
 
-// End RW19K
+// End RW19K_1
 

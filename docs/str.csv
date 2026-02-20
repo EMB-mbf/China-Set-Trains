@@ -69,6 +69,11 @@ STR_NAME_SYZ25,SYZ25 (Passenger Coach),SYZ25 (客车)
 STR_NAME_SRZ25,SRZ25 (Passenger Coach),SRZ25 (客车)
 STR_NAME_SYW25,SYW25 (Passenger Coach),SYW25 (客车)
 STR_NAME_SRW25,SRW25 (Passenger Coach),SRW25 (客车)
+STR_NAME_YZ25A,YZ25A (Passenger Coach),YZ25A (客车)
+STR_NAME_YW25A,YW25A (Passenger Coach),YW25A (客车)
+STR_NAME_RW25A,RW25A (Passenger Coach),RW25A (客车)
+STR_NAME_CA25A,CA25A (Passenger Coach),CA25A (客车)
+STR_NAME_KD25A,KD25A (Passenger Coach),KD25A (客车)
 STR_NAME_YZ25B,YZ25B (Passenger Coach),YZ25B (客车)
 STR_NAME_RZ25B,RZ25B (Passenger Coach),RZ25B (客车)
 STR_NAME_YW25B,YW25B (Passenger Coach),YW25B (客车)
@@ -92,11 +97,13 @@ STR_NAME_RZT25G,RZT25G (Passenger Coach),RZT25G (客车)
 STR_NAME_YW25G,YW25G (Passenger Coach),YW25G (客车)
 STR_NAME_RW25G,RW25G (Passenger Coach),RW25G (客车)
 STR_NAME_CA25G,CA25G (Restaurant Car),CA25G (餐车)
-STR_NAME_RW19K,RW19K (Passenger Coach),RW19K (客车)
+STR_NAME_RW19K_1,RW19K First Generation (Passenger Coach),RW19K第一代 (客车)
+STR_NAME_RW19K_2,RW19K Second and Third Generation (Passenger Coach),RW19K第二代及第三代 (客车)
 STR_NAME_YZ25K,YZ25K (Passenger Coach),YZ25K (客车)
 STR_NAME_RZ25K,RZ25K (Passenger Coach),RZ25K (客车)
 STR_NAME_YW25K,YW25K (Passenger Coach),YW25K (客车)
 STR_NAME_RW25K,RW25K (Passenger Coach),RW25K (客车)
+STR_NAME_RW25K_PROTOTYPE,RW25K Prototype (Passenger Coach),RW25K长客实验版 (客车)
 STR_NAME_SYZ25KLD,SYZ25K (Passenger Coach) (Low-Door),SYZ25K (客车) (低开门)
 STR_NAME_SRZ25KLD,SRZ25K (Passenger Coach) (Low-Door),SRZ25K (客车) (低开门)
 STR_NAME_SYZ25KHD,SYZ25K (Passenger Coach) (High-Door),SYZ25K (客车) (高开门)
@@ -215,6 +222,7 @@ STR_NAME_JF1,JF1 (Steam),JF1 (蒸汽)
 STR_NAME_SL6,SL6 (Steam),SL6 (蒸汽)
 STR_NAME_SL7,Pashina (Steam),パシナ（蒸汽）
 STR_NAME_KD7,KD7 (Steam),KD7 (蒸汽)
+STR_NAME_HP,HP (Steam),HP (蒸汽)
 STR_NAME_QJ,QJ (Steam),QJ (蒸汽)
 STR_NAME_SY,SY (Steam),SY (蒸汽)
 STR_NAME_DF,DF (Diesel),DF (内燃)
@@ -428,6 +436,11 @@ STR_FULL_NAME_SYZ25,{BLACK}FULLNAME: {GOLD}Type 25 Double Decker Hard Seat Passe
 STR_FULL_NAME_SRZ25,{BLACK}FULLNAME: {GOLD}Type 25 Double Decker Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25型双层软座客车
 STR_FULL_NAME_SYW25,{BLACK}FULLNAME: {GOLD}Type 25 Double Decker Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25型双层硬座客车
 STR_FULL_NAME_SRW25,{BLACK}FULLNAME: {GOLD}Type 25 Double Decker Soft Sleeper Passenger Coach,{BLACK}全称：{GOLD}25型双层软座客车
+STR_FULL_NAME_YZ25A,{BLACK}FULLNAME: {GOLD}Type 25A Hard Seat Passenger Coach,{BLACK}全称：{GOLD}25A型硬座客车
+STR_FULL_NAME_YW25A,{BLACK}FULLNAME: {GOLD}Type 25A Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25A型硬卧客车
+STR_FULL_NAME_RW25A,{BLACK}FULLNAME: {GOLD}Type 25A Soft Sleeper Passenger Coach,{BLACK}全称：{GOLD}25A型软卧客车
+STR_FULL_NAME_CA25A,{BLACK}FULLNAME: {GOLD}Type 25A Restaurant Car,{BLACK}全称：{GOLD}25A型餐车
+STR_FULL_NAME_KD25A,{BLACK}FULLNAME: {GOLD}Type 25A Improved Air Conditioner Generator Car,{BLACK}全称：{GOLD}25A型空调发电车
 STR_FULL_NAME_YZ25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Seat Passenger Coach,{BLACK}全称：{GOLD}25系标准型硬座客车
 STR_FULL_NAME_RZ25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25系标准型软座客车
 STR_FULL_NAME_YW25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系标准型硬卧客车
@@ -449,11 +462,13 @@ STR_FULL_NAME_RZT25G,{BLACK}FULLNAME: {GOLD}Type 25 Improved Soft Seat Passenger
 STR_FULL_NAME_YW25G,{BLACK}FULLNAME: {GOLD}Type 25 Improved Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系改进型硬卧客车
 STR_FULL_NAME_RW25G,{BLACK}FULLNAME: {GOLD}Type 25 Improved Soft Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系改进型软卧客车
 STR_FULL_NAME_CA25G,{BLACK}FULLNAME: {GOLD}Type 25 Improved Restaurant Car,{BLACK}全称：{GOLD}25系改进型餐车
-STR_FULL_NAME_RW19K,{BLACK}FULLNAME: {GOLD}Type 19K Soft Sleeper Passenger Coach (2 berth),{BLACK}全称：{GOLD}19K型高级软卧客车
+STR_FULL_NAME_RW19K_1,{BLACK}FULLNAME: {GOLD}Type 19K Soft Sleeper Passenger Coach First Generation(2 berth),{BLACK}全称：{GOLD}第一代19K型高级软卧客车
+STR_FULL_NAME_RW19K_2,{BLACK}FULLNAME: {GOLD}Type 19K Soft Sleeper Passenger Coach Second and Third Generation(2 berth),{BLACK}全称：{GOLD}第二代及第三代19K型高级软卧客车
 STR_FULL_NAME_YZ25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Hard Seat Passenger Coach,{BLACK}全称：{GOLD}25系快速型硬座客车
 STR_FULL_NAME_RZ25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25系快速型软座客车
 STR_FULL_NAME_YW25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系快速型硬卧客车
 STR_FULL_NAME_RW25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Soft Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系快速型软卧客车
+STR_FULL_NAME_RW25K_PROTOTYPE,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Soft Sleeper Passenger Coach Prototype produced by Changchun Coach Factory,{BLACK}全称：{GOLD}25系快速型软卧客车长客实验版
 STR_FULL_NAME_SYZ25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Double Decker Hard Seat Passenger Coach,{BLACK}全称：{GOLD}25系快速型双层硬座客车
 STR_FULL_NAME_SRZ25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Double Decker Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25系快速型双层软座客车
 STR_FULL_NAME_SYW25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Double Decker Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系快速型双层硬卧客车
@@ -518,6 +533,7 @@ STR_FULL_NAME_BGW70,{BLACK}FULLNAME: BGW70-type{GOLD} Edible Oil {BLACK}Tank Wag
 STR_FULL_NAME_JF1,{BLACK}FULLNAME: {GOLD}JieFang {BLACK}(Meaning: Liberate) {GOLD}1 Steam Locomotive,{BLACK}全称：{GOLD}解放1型蒸汽机车
 STR_FULL_NAME_SL6,{BLACK}FULLNAME: {GOLD}ShengLi {BLACK}(Meaning: Victory) {GOLD}6 Steam Locomotive,{BLACK}全称：{GOLD}胜利6型蒸汽机车
 STR_FULL_NAME_SL7,{BLACK}FULLNAME: {GOLD}Pashina Steam Locomotive,{BLACK}全称：{GOLD}パシナ型蒸汽机车
+STR_FULL_NAME_HP,{BLACK}FULLNAME: {GOLD}Heping {BLACK}(Meaning: Peace) {GOLD}Steam Locomotive,{BLACK}全称：{GOLD}和平型内燃机车
 STR_FULL_NAME_QJ,{BLACK}FULLNAME: {GOLD}Qianjin {BLACK}(Meaning: Forward) {GOLD}Steam Locomotive,{BLACK}全称：{GOLD}前进型蒸汽机车
 STR_FULL_NAME_SY,{BLACK}FULLNAME: {GOLD}Shangyou {BLACK}(Meaning: Aiming High) {GOLD}Steam Locomotive,{BLACK}全称：{GOLD}上游型蒸汽机车
 STR_FULL_NAME_DF,{BLACK}FULLNAME: {GOLD}Dongfeng Diesel Locomotive,{BLACK}全称：{GOLD}东风型内燃机车
@@ -603,6 +619,7 @@ STR_FULL_NAME_HXD3C,{BLACK}FULLNAME: {GOLD}Hexie/Harmony 3C Electric Locomotive,
 STR_FULL_NAME_HXD3D,{BLACK}FULLNAME: {GOLD}Hexie/Harmony 3D Electric Locomotive,{BLACK}全称：{GOLD}和谐3D型电力机车
 # Series Name,,
 STR_JF1_SERIES,JF1 (Steam Locomotive),解放1型 (蒸汽机车)
+STR_QJ_SERIES,QJ Series (Steam Locomotive),前进系列 (蒸汽机车)
 STR_DF4_SERIES,DF4 Series (Diesel Locomotive),DF4系列 (内燃机车)
 STR_DF4D_SERIES,DF4D Series (Diesel Locomotive),DF4D系列 (内燃机车)
 STR_DF5_SERIES,DF5 Series (Diesel Locomotive),DF5系列 (内燃机车)
@@ -647,6 +664,7 @@ STR_22B_SERIES,Type 22B Series Coaches,22B型客车
 STR_24_DDR_SERIES,Type 24 Series Coaches (DDR),24型客车 (东德造)
 STR_25_SERIES,Type 25 Series Coaches,25型客车
 STR_S25_SERIES,Type S25 Series Coaches,S25型双层客车
+STR_25A_SERIES,Type 25A Series Coaches,25A型客车
 STR_25_HK_SERIES,Type 25 Series Canton-Kowloon Railway Coaches,25型广九铁路客车
 STR_25B_SERIES,Type 25B Series Coaches,25B型客车
 STR_S25B_SERIES,Type S25B Series Coaches,S25B型双层客车
@@ -724,7 +742,8 @@ STR_XL25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE}Blue {
 STR_RZXL25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {WHITE} Guangzhou-Kowloon Railway Livery {DKGREEN}(And its ""Gaozu Lv"" Green version)",{BLACK}可供选择的涂装：{WHITE}广九直通车涂装 {DKGREEN}(及其刷绿版本)
 STR_UZ25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE}Blue {GOLD}and {WHITE}White {GOLD}Livery (Only Made in China),  {DKGREEN}""Gaozu Lv""  GreenLivery (Only Made in China)","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (仅国产)，{DKGREEN}""高祖绿""涂装 (仅国产)"
 STR_KD25T_LIVERY_AVAILABILITY,{BLACK}Livery Availability: Only {DKGREEN}Qinghai-Tibet Railway Livery,{BLACK}可供选择的涂装：仅有{DKGREEN}青藏铁路涂装
-STR_19K_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {BLUE}Blue-{RED}Red{WHITE}-White {GOLD}Livery, {RED}Red {GOLD}and {WHITE}White {GOLD}Livery",{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白{RED}红{GOLD}相间涂装，{RED}红{WHITE}白{GOLD}相间涂装
+STR_RW19K_2_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {BLUE}Blue-{RED}Red{WHITE}-White {GOLD}Livery, {RED}Red {GOLD}and {WHITE}White {GOLD}Livery, {DKGREEN}""Gaozu Lv"" Green Livery, {BLUE}""Dongfang"", {BLUE}""New Century"" Blue Livery, {RED}""New Century"" Red Livery, {BLUE}""Lu'neng"", {RED}""Vast Grassland""",{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白{RED}红{GOLD}相间涂装，{RED}红{WHITE}白{GOLD}相间涂装，{DKGREEN}“高祖绿”{GOLD}涂装，{BLUE}“东方号”{GOLD}涂装，{BLUE}“新世纪”蓝色{GOLD}涂装，{RED}“新世纪”红色{GOLD}涂装，{BLUE}“鲁能号”{GOLD}涂装，{RED}“大草原号”涂装
+STR_RW25K_PROTOTYPE_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {BLUE}Original {WHITE}livery, {DKGREEN}""Gaozu Lv"" Green {GOLD}Livery",{BLACK}可供选择的涂装：{BLUE}原版{RED}涂{WHITE}装，{DKBLUE}“高祖绿”{GOLD}涂装
 STR_S25Z_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {LTBLUE}Shijiazhuang-Qinhuangdao {WHITE}Slow Train {GOLD}Livery, {BLUE}Guangzhou-{DKGREEN}-Shenzhen{WHITE} Railway{GOLD} Livery","{BLACK}可供选择的涂装：{LTBLUE}石秦{WHITE}特慢{GOLD}涂装, {BLUE}广深{DKGREEN}铁{WHITE}路{GOLD}涂装"
 STR_S25_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {BLUE}Blue-{GOLD}-Orange-{WHITE}-White {BLACK}Livery, other livery (unfinished}",{BLACK}可供选择的涂装：{GOLD}蓝-橙-白涂装，其他彩绘涂装尚未完成
 STR_S25KLD_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {LTBLUE}Shanghai-Luchaogang {GOLD}Livery, Liaodong Peninsula Livery (All low-door, higher loading speed)",{BLACK}可供选择的涂装：{LTBLUE}沪芦列车{GOLD}涂装，辽东半岛号 (均为低开门，装载较快)
@@ -844,7 +863,8 @@ STR_ALIASNAME_JF1,"{BLACK}Alias Name: {GOLD}Mikai, MK1",{BLACK}曾用名：{GOLD
 STR_ALIASNAME_SL6,"{BLACK}Alias Name: {GOLD}Pashiku, PX6",{BLACK}曾用名：{GOLD}パシク，ㄆㄒ6型
 STR_ALIASNAME_SL7,"{BLACK}Alias Name: {GOLD}PX7, SL7",{BLACK}别名：{GOLD}帕西7型，胜利7型
 STR_ALIASNAME_KD7,"{BLACK}Alias Name: {GOLD}SL7",{BLACK}曾用名：{GOLD}ㄙㄌ7型
-STR_ALIASNAME_QJ,"{BLACK}Alias Name: {GOLD}Heping (HP), Fandi (FD)",{BLACK}曾用名：{GOLD}和平型（HP），反帝型（FD）
+STR_ALIASNAME_HP,"{BLACK}Alias Name: {GOLD}Qianjin (QJ), Fandi (FD)",{BLACK}曾用名：{GOLD}反帝型 (FD) ，前进型 (QJ)
+STR_ALIASNAME_QJ,"{BLACK}Alias Name: {GOLD}Heping (HP), Fandi (FD)",{BLACK}曾用名：{GOLD}和平型 (HP) ，反帝型 (FD)
 STR_ALIASNAME_DF,"{BLACK}Alias Name: {GOLD}Great Loong, ND",{BLACK}曾用名：{GOLD}巨龙，ND
 STR_ALIASNAME_SS1,{BLACK}Alias Name: {GOLD}6Y1,{BLACK}曾用名：{GOLD}6Y1
 STR_ALIASNAME_HXD3,{BLACK}Alias Name: {GOLD}DJ3,{BLACK}曾用名：{GOLD}DJ3
@@ -1025,8 +1045,12 @@ STR_INTERNATIONAL_RU,{BLACK} - International Transport With Russia Livery,{BLACK
 STR_INTERNATIONAL_MN,{BLACK} - International Transport With Mongolia Livery,{BLACK} - 对蒙国际联运涂装
 STR_INTERNATIONAL_DPRK,{BLACK} - International Transport With DPRK Livery,{BLACK} - 对朝国际联运涂装
 STR_INTERNATIONAL_VN,{BLACK} - International Transport With Vietnam Livery,{BLACK} - 对越国际联运涂装
-STR_DONGFANG,{BLACK} - "Dongfang",{BLACK} - “东方号”涂装
-STR_XINSHIJI,{BLACK} - "New Century",{BLACK} - “新世纪号”涂装
+STR_DONGFANG,{BLUE} - "Dongfang",{BLUE} - “东方号”涂装
+STR_XINSHIJI,{BLUE} - "New Century",{BLUE} - “新世纪号”涂装
+STR_BLUE_XINSHIJI,{BLUE} - "New Century" Blue Livery,{BLUE} - “新世纪号”蓝色涂装
+STR_RED_XINSHIJI,{RED} - "New Century" Red Livery,{RED} - “新世纪号”红色涂装
+STR_LUNENG,{BLUE} - "Luneng",{BLUE} - “鲁能号”涂装
+STR_DACAOYUAN,{RED} - "Vast Greenland",{RED} - “大草原号”涂装
 STR_ASIAGAME,{BLACK} - {PURPLE}The 19th Asian Games Hangzhou {BLACK}Livery,"{BLACK} - {PURPLE}杭州亚运会""润泽江南""{BLACK}涂装"
 STR_WINTER_OLYMPIC,{BLACK} - {LTBLUE}The XXIV Olympic Winter Games {BLACK}Livery,"{BLACK} - {LTBLUE}北京冬奥会""瑞雪迎春""{BLACK}涂装"
 STR_HXD3D1893,"{BLACK}{RED} - HXD3D-1893 {GOLD}""Mao Zedong""","{BLACK}{RED} - HXD3D-1893 {GOLD}""毛泽东号"""
