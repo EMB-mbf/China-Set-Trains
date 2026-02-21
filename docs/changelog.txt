@@ -7,6 +7,11 @@ China Set: Trains Changelog
 
 0.4.1 (2025-09-02)
 --------------------
+Add: 
+    - Locomotives: SL67, ND2, DF8B
+    - Coaches: 25A
+    - Liveries: for 25K, 25T Coaches
+Renew: 25K liveries, 25T liveries
 Fix: some wrong or misspelt language strings
 
 0.4.0 (2025-09-01)

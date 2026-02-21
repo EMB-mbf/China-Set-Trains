@@ -119,6 +119,7 @@ STR_NAME_RZ25T,RZ25T (Passenger Coach),RZ25T (客车)
 STR_NAME_RZXL25T,RZXL26T (Luggage Passenger Coach),RZXL25T (行李客车)
 STR_NAME_YW25T,YW25T (Passenger Coach),YW25T (客车)
 STR_NAME_RW25T,RW25T (Passenger Coach),RW25T (客车)
+STR_NAME_RW25T_JT,RW25T (Coston Version for Jitong Railway) (Passenger Coach),RW25T (集通铁路定制版本) (客车)
 STR_NAME_CA25T,CA25T (Restaurant Car),CA25T (餐车)
 STR_NAME_YZ31,YZ31 (Passenger Coach),YZ31 (客车)
 STR_NAME_XL18_4,XL18 (Gen4) (Luggage Car),XL18 (第四代) (行李车)
@@ -481,6 +482,7 @@ STR_FULL_NAME_RZ25T,{BLACK}FULLNAME: {GOLD}Type 25 Accelerated Soft Seat Passeng
 STR_FULL_NAME_RZXL25T,{BLACK}FULLNAME: {GOLD}Type 25 Accelerated Soft Seat Passenger Luggage Coach,{BLACK}全称：{GOLD}25系提速型软座行李合造车
 STR_FULL_NAME_YW25T,{BLACK}FULLNAME: {GOLD}Type 25 Accelerated Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系提速型硬卧客车
 STR_FULL_NAME_RW25T,{BLACK}FULLNAME: {GOLD}Type 25 Accelerated Soft Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系提速型软卧客车
+STR_FULL_NAME_RW25T_JT,{BLACK}FULLNAME: {GOLD}Type 25 Accelerated Soft Sleeper Passenger Coach (Custom Version for Jitong Railway),{BLACK}全称：25系提速型软卧客车 (集通铁路定制版本)
 STR_FULL_NAME_YZ31,{BLACK}FULLNAME: {GOLD}Type 31 Hard Seat Passenger Coach,{BLACK}全称：{GOLD}31型硬座客车
 STR_FULL_NAME_CA25T,{BLACK}FULLNAME: {GOLD}Type 25 Accelerated Restaurant Car,{BLACK}全称：{GOLD}25系提速型餐车
 STR_FULL_NAME_XL18,{BLACK}FULLNAME: {GOLD}Type 18 Luggage Car,{BLACK}全称：{GOLD}18型行李车
@@ -734,14 +736,17 @@ STR_22AIRCON_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {GOLD}Beijing-Shan
 STR_22B_LIVERY_AVAILABILITY,{BLACK}Livery Availability: {GOLD}Ordinary {GREEN}Green {GOLD}Livery,{BLACK}可供选择的涂装：{GREEN}绿皮车{GOLD}涂装
 STR_RW25B_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {GOLD}Ordinary {GREEN}Green {GOLD}Livery, {DKGREEN}""Gaozu Green"" {GOLD}Livery (unfinished)",{BLACK}可供选择的涂装：{GREEN}绿皮车{GOLD}涂装，{DKGREEN}“高阻绿”{GOLD}涂装 (未完成)
 STR_XL25B_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {GOLD}Ordinary {GREEN}Green {GOLD}Livery, {RED}Red {GOLD}and {WHITE}White {GOLD}Livery, {DKGREEN}""Gaozu Green"" {GOLD}Livery (unfinished)",{BLACK}可供选择的涂装：{GREEN}绿皮车{GOLD}涂装，{RED}红{WHITE}白{GOLD}相间涂装，{DKGREEN}“高阻绿”{GOLD}涂装 (未完成)
-STR_YZ_YW25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Only Made in China), {DKGREEN}""Gaozu Lv"" Green Livery (Only Made in China),  Qinghai-Tibet Railway Grenn Livery (Both have Made in China and Made by BSP)","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (仅国产)，{DKGREEN}青藏铁路涂装 (国产和BSP版本)，""高祖绿""涂装 (仅国产)，{WHITE}广九直通车涂装 {DKGREEN}(及其刷绿版本)"
-STR_RZ25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Both have Made in China and Made by BSP), {DKGREEN}""Gaozu Lv"" Green Livery (Also Both have Made in China and Made by BSP),  Qinghai-Tibet Railway Grenn Livery (Only Made in China),{WHITE} Guangzhou-Kowloon Railway Livery {DKGREEN}(And its ""Gaozu Lv"" Green version)","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (国产和BSP版本)，{DKGREEN}青藏铁路涂装 (仅国产)，""高祖绿""涂装 (国产和BSP版本)，{WHITE}广九直通车涂装 {DKGREEN}(及其刷绿版本)"
-STR_RW25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Both have Made in China and Made by BSP), {DKGREEN}""Gaozu Lv"" Green Livery (Also Both have Made in China and Made by BSP),  Qinghai-Tibet Railway Grenn Livery (Also Both have Made in China and Made by BSP)","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (国产和BSP版本)，{DKGREEN}青藏铁路涂装 (国产和BSP版本)，""高祖绿""涂装 (国产和BSP版本)"
-STR_CA25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Both have Made in China and Made by BSP), {DKGREEN}""Gaozu Lv"" Green Livery (Also Both have Made in China and Made by BSP),  Qinghai-Tibet Railway Grenn Livery (Also Both have Made in China and Made by BSP),{WHITE} Guangzhou-Kowloon Railway Livery {DKGREEN}(And its ""Gaozu Lv"" Green version)","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (国产和BSP版本)，{DKGREEN}青藏铁路涂装 (国产和BSP版本)，""高祖绿""涂装，{WHITE}广九直通车涂装 {DKGREEN}(及其刷绿版本)"
-STR_XL25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE}Blue {GOLD}and {WHITE}White {GOLD}Livery (Both have Made in China and Made by BSP) , {DKGREEN}""Gaozu Lv""  Green Livery  (Also Both have Made in China and Made by BSP),  Qinghai-Tibet Railway Livery  (Only Made in China)","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (国产和BSP版本)，{DKGREEN}青藏铁路涂装 (仅国产)，""高祖绿""涂装 (国产和BSP版本)"
+STR_YZ25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Only Made in China), {DKGREEN}""Gaozu Lv"" Green Livery (Only Made in China),  Qinghai-Tibet Railway Grenn Livery (Both have Made in China and Made by BSP), {BLUE}""Ji{RED}nl{WHITE}un"", {BLUE}Yili's Advertisement Livery, {BLUE}""Olympics""","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (仅国产)，{DKGREEN}青藏铁路涂装 (国产和BSP版本)，“高祖绿”涂装 (仅国产)，{BLUE}“金{RED}轮{WHITE}号”{GRAY}涂装，{BLUE}伊利广告涂装，{BLUE}“奥运号”涂装"
+STR_YW25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Only Made in China), {DKGREEN}""Gaozu Lv"" Green Livery (Only Made in China),  Qinghai-Tibet Railway Grenn Livery (Both have Made in China and Made by BSP), {BLUE}International Transport With DPRK Livery, {BLUE}Yili's Advertisement Livery, {BLUE}""Olympics""","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (仅国产)，{DKGREEN}青藏铁路涂装 (国产和BSP版本)，“高祖绿”涂装 (仅国产)，{BLUE}对朝联运涂装，{BLUE}伊利广告涂装，{BLUE}“奥运号”涂装"
+STR_RZ25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Both have Made in China and Made by BSP), {DKGREEN}""Gaozu Lv"" Green Livery (Also Both have Made in China and Made by BSP),  Qinghai-Tibet Railway Grenn Livery (Only Made in China), {WHITE} Guangzhou-Kowloon Railway Livery {DKGREEN}(And its ""Gaozu Lv"" Green version), {WHITE} Guangzhou-Kowloon Railway Livery with Facilities for the Disabled{DKGREEN}(And its ""Gaozu Lv"" Green version), {BLUE}""Ji{RED}nl{WHITE}un"", {BLUE}Yili's Advertisement Livery, {BLUE}""Olympics""","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (国产和BSP版本)，{DKGREEN}青藏铁路涂装 (仅国产)，“高祖绿”涂装 (国产和BSP版本)，{WHITE}广九直通车涂装 {DKGREEN}(及其刷绿版本)，{WHITE}带残疾人设施的广九直通车涂装 {DKGREEN}(及其刷绿版本)，{BLUE}“金{RED}轮{WHITE}号”{GRAY}涂装，{BLUE}伊利广告涂装，{BLUE}“奥运号”涂装"
+STR_RW25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Both have Made in China and Made by BSP), {DKGREEN}""Gaozu Lv"" Green Livery (Also Both have Made in China and Made by BSP),  Qinghai-Tibet Railway Grenn Livery (Also Both have Made in China and Made by BSP), {BLUE}International Transport With DPRK Livery, {DKGREEN}International Transport With Vietnam Livery","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (国产和BSP版本)，{DKGREEN}青藏铁路涂装 (国产和BSP版本)，""高祖绿""涂装 (国产和BSP版本)，{BLUE}对朝联运涂装，{DKGREEN}对越联运涂装"
+STR_RW25T_JT_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery, {DKGREEN}""Gaozu Lv"" Green Livery, {BLUE}Yili's Advertisement Livery","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装，{DKGREEN}“高祖绿”涂装，{BLUE}伊利广告涂装"
+STR_CA25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE} Blue{WHITE} White {GOLD}Livery (Both have Made in China and Made by BSP), {DKGREEN}""Gaozu Lv"" Green Livery (Also Both have Made in China and Made by BSP),  Qinghai-Tibet Railway Grenn Livery (Also Both have Made in China and Made by BSP), {WHITE} Guangzhou-Kowloon Railway Livery {DKGREEN}(And its ""Gaozu Lv"" Green version), {BLUE}""Dongfang"",{BLUE}""New Century"", {BLUE}Yili's Advertisement Livery, {BLUE}""Olympics""","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (国产和BSP版本)，{DKGREEN}青藏铁路涂装 (国产和BSP版本)，“高祖绿”涂装，{WHITE}广九直通车涂装 {DKGREEN}(及其刷绿版本),{BLUE}“东方号”涂装，{BLUE}“新世纪号”涂装，{BLUE}伊利广告涂装，{BLUE}“奥运号”涂装"
+STR_XL25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE}Blue {GOLD}and {WHITE}White {GOLD}Livery (Both have Made in China and Made by BSP) , {DKGREEN}""Gaozu Lv""  Green Livery  (Also Both have Made in China and Made by BSP),  Qinghai-Tibet Railway Livery  (Only Made in China), {BLUE}Yili's Advertisement Livery, {BLUE}""Olympics""","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (国产和BSP版本)，{DKGREEN}青藏铁路涂装 (仅国产)，""高祖绿""涂装 (国产和BSP版本)，{BLUE}伊利广告涂装，{BLUE}“奥运号”涂装"
 STR_RZXL25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {WHITE} Guangzhou-Kowloon Railway Livery {DKGREEN}(And its ""Gaozu Lv"" Green version)",{BLACK}可供选择的涂装：{WHITE}广九直通车涂装 {DKGREEN}(及其刷绿版本)
-STR_UZ25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE}Blue {GOLD}and {WHITE}White {GOLD}Livery (Only Made in China),  {DKGREEN}""Gaozu Lv""  GreenLivery (Only Made in China)","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (仅国产)，{DKGREEN}""高祖绿""涂装 (仅国产)"
+STR_UZ25T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE}Blue {GOLD}and {WHITE}White {GOLD}Livery (Only Made in China),  {DKGREEN}""Gaozu Lv""  Green Livery (Only Made in China), {GOLD}Imitation {BLUE}2{RED}5{WHITE}K {GOLD}Livery, {GOLD}Imitation {RED}2{ORANGE}5{WHITE}G {GOLD}Livery","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装 (仅国产)，{DKGREEN}""高祖绿""涂装 (仅国产)，{GOLD}仿{BLUE}2{RED}5{WHITE}K{GOLD}涂装，{GOLD}仿{RED}2{ORANGE}5{WHITE}G{GOLD}涂装"
 STR_KD25T_LIVERY_AVAILABILITY,{BLACK}Livery Availability: Only {DKGREEN}Qinghai-Tibet Railway Livery,{BLACK}可供选择的涂装：仅有{DKGREEN}青藏铁路涂装
+STR_RW19T_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: Original {BLUE}Blue {GOLD}and {WHITE}White {GOLD}Livery, {DKGREEN}""Gaozu Lv""  Green Livery","{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白 {GOLD}相间涂装，{DKGREEN}“高祖绿”涂装"
 STR_RW19K_2_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {BLUE}Blue-{RED}Red{WHITE}-White {GOLD}Livery, {RED}Red {GOLD}and {WHITE}White {GOLD}Livery, {DKGREEN}""Gaozu Lv"" Green Livery, {BLUE}""Dongfang"", {BLUE}""New Century"" Blue Livery, {RED}""New Century"" Red Livery, {BLUE}""Lu'neng"", {RED}""Vast Grassland""",{BLACK}可供选择的涂装：{BLUE}蓝{WHITE}白{RED}红{GOLD}相间涂装，{RED}红{WHITE}白{GOLD}相间涂装，{DKGREEN}“高祖绿”{GOLD}涂装，{BLUE}“东方号”{GOLD}涂装，{BLUE}“新世纪”蓝色{GOLD}涂装，{RED}“新世纪”红色{GOLD}涂装，{BLUE}“鲁能号”{GOLD}涂装，{RED}“大草原号”涂装
 STR_RW25K_PROTOTYPE_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {BLUE}Original {WHITE}livery, {DKGREEN}""Gaozu Lv"" Green {GOLD}Livery",{BLACK}可供选择的涂装：{BLUE}原版{RED}涂{WHITE}装，{DKBLUE}“高祖绿”{GOLD}涂装
 STR_S25Z_LIVERY_AVAILABILITY,"{BLACK}Livery Availability: {LTBLUE}Shijiazhuang-Qinhuangdao {WHITE}Slow Train {GOLD}Livery, {BLUE}Guangzhou-{DKGREEN}-Shenzhen{WHITE} Railway{GOLD} Livery","{BLACK}可供选择的涂装：{LTBLUE}石秦{WHITE}特慢{GOLD}涂装, {BLUE}广深{DKGREEN}铁{WHITE}路{GOLD}涂装"
@@ -965,6 +970,8 @@ STR_RED_BLUE_GRAY,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray,{BLACK} - {RED}红{BL
 STR_RBG_PLUG,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray {BLACK}Version With Plug Doors,{BLACK} - {RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装，塞拉门
 STR_RBG_FOLD,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray {BLACK}Version With Folding Doors,{BLACK} - {RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装，折页门
 STR_RED_SKYBLUE_GRAY,{BLACK} - {RED}Red-{BLUE}Sky Blue-{GRAY}Gray,{BLACK} - {RED}红{BLUE}天蓝{GRAY}灰{BLACK}相间涂装
+STR_IMITATION_25K,{BLACK} - {BLACK}Imitation {BLUE}2{RED}5{WHITE}K {BLACK}Livery,{BLACK} - {BLACK}仿{BLUE}2{RED}5{WHITE}K{BLACK}涂装
+STR_IMITATION_25G,{BLACK} - {BLACK}Imitation {RED}2{ORANGE}5{WHITE}G {BLACK}Livery,{BLACK} - {BLACK}仿{RED}2{ORANGE}5{WHITE}G{BLACK}涂装
 STR_JITONG,{BLACK} - {BLUE}Ji'ning{RED}-{WHITE}Tongliao {BLUE}Railway {BLACK}Livery,{BLACK} - {BLUE}集{RED}通{WHITE}铁{BLUE}路{BLACK}涂装
 STR_LUCHAOGANG,{BLACK} - {LTBLUE}Shanghai-Luchaogang {BLACK}Livery,{BLACK} - {LTBLUE}沪芦列车{BLACK}涂装
 STR_LIAODONG,{BLACK} - Liaodong Peninsula Livery,{BLACK} - 辽东半岛号涂装
@@ -986,7 +993,16 @@ STR_FULONG,{BLACK} - Fulong Company Livery,{BLACK} - 福龙公司涂装
 STR_XIZI,"{BLACK} - ""Xizi"" Livery","{BLACK} - {LTBLUE}""西子号""{BLACK}涂装"
 STR_XIZI_GREEN,"{BLACK} - {DKGREEN}""Gaozu Green"" {BLACK}livery of ""Xizi"" Train","{BLACK} - {DKGREEN}""西子号""的刷绿{BLACK}涂装"
 STR_XIZI_BUILD_YEAR,"{BLACK} - ""Xizi"" (According to build year)","{BLACK} - ""西子号""（根据建造年份选择涂装）"
+STR_DONGFANG,{BLUE} - "Dongfang",{BLUE} - “东方号”涂装
+STR_XINSHIJI,{BLUE} - "New Century",{BLUE} - “新世纪号”涂装
+STR_BLUE_XINSHIJI,{BLUE} - "New Century" Blue Livery,{BLUE} - “新世纪号”蓝色涂装
+STR_RED_XINSHIJI,{RED} - "New Century" Red Livery,{RED} - “新世纪号”红色涂装
+STR_LUNENG,{BLUE} - "Luneng",{BLUE} - “鲁能号”涂装
+STR_DACAOYUAN,{RED} - "Vast Greenland",{RED} - “大草原号”涂装
 STR_SHIQIN,{BLUE} - "Shiqin Express",{BLUE} - “石秦特快”涂装
+STR_YILI,{BLUE} - Yili's Advertisement Livery,{BLUE} - 伊利广告涂装
+STR_2008,{BLUE} - "Olympics",{BLUE} - “奥运号”涂装
+STR_JINLUN,{BLACK} - {BLUE}"Ji{RED}nl{WHITE}un",{BLACK} - {BLACK}“{BLUE}金{RED}轮{WHITE}号{BLACK}”{GRAY}涂装
 STR_HEJIU,{BLACK} - Hefei-Jiujiang Railway Livery,{BLACK} - 合九铁路涂装
 STR_GYR,{BLACK} - Guangxi Yanhai Raiway,{BLACK} - 广西沿海铁路涂装
 STR_GMSR,{BLACK} - Guangzhou-Meizhou-Shantou Railway Livery,{BLACK} - 广梅汕铁路涂装
@@ -1013,6 +1029,8 @@ STR_GAOZU_GREEN_BSP,"{BLACK} - {DKGREEN}""Gaozu Green"" {BLACK}livery of BSP25T"
 STR_BSP25T,{BLACK} - Made by BSP,{BLACK} - BSP制造
 STR_25T_HK,{BLACK} - Used in Guangzhou-Kowloon Railway version,{BLACK} - 广九直通车版本
 STR_25T_HK_GREEN,"{BLACK} - {DKGREEN}""Gaozu Green"" {BLACK}livery of 25T used in Guangzhou-Kowloon Railway",{BLACK} - 广九直通车的刷{DKGREEN}绿{BLACK}涂装
+STR_25T_HK_SPECIAL,{BLACK} - Used in Guangzhou-Kowloon Railway version with Facilities for the Disabled,{BLACK} - 广九直通车带残疾人设施版本
+STR_25T_HK_SPECIAL_GREEN,"{BLACK} - {DKGREEN}""Gaozu Green"" {BLACK}livery of 25T used in Guangzhou-Kowloon Railway with Facilities for the Disabled",{BLACK} - 广九直通车带残疾人设施的刷{DKGREEN}绿{BLACK}涂装
 STR_QINGZANG_LOCO,{BLACK} - Qinghai-Tibet Railway Livery,{BLACK} - {DKGREEN}青藏铁路涂装
 STR_QINGZANG,{BLACK} - Qinghai-Tibet Railway Livery (Made in China),{BLACK} - {DKGREEN}青藏铁路涂装 (国产)
 STR_QINGZANG_BSP,{BLACK} - Qinghai-Tibet Railway Livery (Made by BSP),{BLACK} - {DKGREEN}青藏铁路涂装 (BSP)
@@ -1046,12 +1064,6 @@ STR_INTERNATIONAL_RU,{BLACK} - International Transport With Russia Livery,{BLACK
 STR_INTERNATIONAL_MN,{BLACK} - International Transport With Mongolia Livery,{BLACK} - 对蒙国际联运涂装
 STR_INTERNATIONAL_DPRK,{BLACK} - International Transport With DPRK Livery,{BLACK} - 对朝国际联运涂装
 STR_INTERNATIONAL_VN,{BLACK} - International Transport With Vietnam Livery,{BLACK} - 对越国际联运涂装
-STR_DONGFANG,{BLUE} - "Dongfang",{BLUE} - “东方号”涂装
-STR_XINSHIJI,{BLUE} - "New Century",{BLUE} - “新世纪号”涂装
-STR_BLUE_XINSHIJI,{BLUE} - "New Century" Blue Livery,{BLUE} - “新世纪号”蓝色涂装
-STR_RED_XINSHIJI,{RED} - "New Century" Red Livery,{RED} - “新世纪号”红色涂装
-STR_LUNENG,{BLUE} - "Luneng",{BLUE} - “鲁能号”涂装
-STR_DACAOYUAN,{RED} - "Vast Greenland",{RED} - “大草原号”涂装
 STR_ASIAGAME,{BLACK} - {PURPLE}The 19th Asian Games Hangzhou {BLACK}Livery,"{BLACK} - {PURPLE}杭州亚运会""润泽江南""{BLACK}涂装"
 STR_WINTER_OLYMPIC,{BLACK} - {LTBLUE}The XXIV Olympic Winter Games {BLACK}Livery,"{BLACK} - {LTBLUE}北京冬奥会""瑞雪迎春""{BLACK}涂装"
 STR_HXD3D1893,"{BLACK}{RED} - HXD3D-1893 {GOLD}""Mao Zedong""","{BLACK}{RED} - HXD3D-1893 {GOLD}""毛泽东号"""

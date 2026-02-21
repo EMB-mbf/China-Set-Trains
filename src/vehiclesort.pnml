@@ -297,6 +297,7 @@ sort (FEAT_TRAINS, [
     rz25t,
     yw25t,
     rw25t,
+    rw25t_jt,
     rw19t,
     rw19t_tanggula,
     ca25t,
