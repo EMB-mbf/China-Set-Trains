@@ -168,7 +168,7 @@ item (FEAT_TRAINS, ca21, 2164) {}
 item (FEAT_TRAINS, xl21, 2165) {}
 item (FEAT_TRAINS, yz21early, 2166) {}
 item (FEAT_TRAINS, ha1, 2167) {}
-// 2168-2176 coded by EMB190
+// 2168-2177 coded by EMB190
 item (FEAT_TRAINS, rw25k_prototype, 2168){}
 item (FEAT_TRAINS, rw19k_1, 2169){}
 item (FEAT_TRAINS, rw19k_2, 2170){}
@@ -178,6 +178,7 @@ item (FEAT_TRAINS, rw25a, 2173){}
 item (FEAT_TRAINS, ca25a, 2174){}
 item (FEAT_TRAINS, kd25a, 2175){}
 item (FEAT_TRAINS, rw25t_jt, 2176){}
+item (FEAT_TRAINS, rw25g_int, 2177){}
 
 item (FEAT_TRAINS, luggageroom_s25, 3070) {}
 item (FEAT_TRAINS, luggageroom_25, 3071) {}
