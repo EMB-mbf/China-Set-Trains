@@ -79,6 +79,10 @@ STR_NAME_RZ25B,RZ25B (Passenger Coach),RZ25B (客车)
 STR_NAME_YW25B,YW25B (Passenger Coach),YW25B (客车)
 STR_NAME_RW25B,RW25B (Passenger Coach),RW25B (客车)
 STR_NAME_CA25B,CA25G (Restaurant Car),CA25B (餐车)
+STR_NAME_YZ25B_AC,YZ25B With AC (Passenger Coach),空调YZ25B (客车)
+STR_NAME_YW25B_AC,YW25B With AC (Passenger Coach),空调YW25B (客车)
+STR_NAME_RW25B_AC,RW25B With AC (Passenger Coach),空调RW25B (客车)
+STR_NAME_CA25B_AC,CA25B With AC (Passenger Coach),空调CA25B (客车)
 STR_NAME_SYZ25BLD,SYZ25B (Passenger Coach) (Low-Door),SYZ25B (客车) (低开门)
 STR_NAME_SRZ25BLD,SRZ25B (Passenger Coach) (Low-Door),SRZ25B (客车) (低开门)
 STR_NAME_SYZ25BHD,SYZ25B (Passenger Coach) (High-Door),SYZ25B (客车) (高开门)
@@ -138,7 +142,7 @@ STR_NAME_UZ25G,UZ25G (Railway Post Office),UZ25G (邮车)
 STR_NAME_UZ25K,UZ25K (Railway Post Office),UZ25K (邮车)
 STR_NAME_UZ25T,UZ25T (Railway Post Office),UZ25T (邮车)
 STR_NAME_TZ,TZ (Air Conditioner Generator Car),TZ (空调发电车)
-STR_NAME_TZ2,TZ2 (Air Conditioner Generator Car),TZ2 (空调发电车)
+STR_NAME_TZ2,TZ2 (KD25G) (Air Conditioner Generator Car),TZ2 (KD25G) (空调发电车)
 STR_NAME_KD25SM,KD25 (Sanshui-Maoming Railway) (Air Conditioner Generator Car),KD25 (三茂铁路) (空调发电车)
 STR_NAME_KD25C,KD25C (Air Conditioner Generator Car),KD25C (空调发电车)
 STR_NAME_KD25G,KD25G (Air Conditioner Generator Car),KD25G (空调发电车)
@@ -448,6 +452,10 @@ STR_FULL_NAME_RZ25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Soft Seat Passenger 
 STR_FULL_NAME_YW25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系标准型硬卧客车
 STR_FULL_NAME_RW25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Soft Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系标准型软卧客车
 STR_FULL_NAME_CA25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Restaurant Car,{BLACK}全称：{GOLD}25系标准型餐车
+STR_FULL_NAME_YZ25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Seat Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}带空调的25系标准型硬座客车
+STR_FULL_NAME_YW25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Sleeper Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}带空调的25系标准型硬卧客车
+STR_FULL_NAME_RW25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Soft Sleeper Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}带空调的25系标准型软卧客车
+STR_FULL_NAME_CA25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Restaurant Car With Air Conditioner,{BLACK}全称：{GOLD}带空调的25系标准型餐车
 STR_FULL_NAME_SYZ25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Double Decker Hard Seat Passenger Coach,{BLACK}全称：{GOLD}25系标准型双层硬座客车
 STR_FULL_NAME_SRZ25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Double Decker Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25系标准型双层软座客车
 STR_FULL_NAME_SYW25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Double Decker Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系标准型双层硬卧客车
@@ -501,7 +509,7 @@ STR_FULL_NAME_UZ25G,{BLACK}FULLNAME: {GOLD}Type 25 Improved Railway Post Office,
 STR_FULL_NAME_UZ25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Railway Post Office,{BLACK}全称：{GOLD}25系快速型邮政车
 STR_FULL_NAME_UZ25T,{BLACK}FULLNAME: {GOLD}Type 25 Accelerated Railway Post Office,{BLACK}全称：{GOLD}25系提速型邮政车
 STR_FULL_NAME_TZ,{BLACK}FULLNAME: {GOLD}Special Purpose Car,{BLACK}全称：{GOLD}特种车
-STR_FULL_NAME_TZ2,{BLACK}FULLNAME: {GOLD}Special Purpose Car Type 2,{BLACK}全称：{GOLD}2型特种车
+STR_FULL_NAME_TZ2,{BLACK}FULLNAME: {GOLD}Special Purpose Car Type 2 {BLACK}(Or Type 25 Improved Air Conditioner Generator Car),{BLACK}全称：{GOLD}2型特种车 {BLACK}(25改进型空调发电车)
 STR_FULL_NAME_KD25SM,{BLACK}FULLNAME: {GOLD}Type 25 Sanshui-Maoming Railway Air Conditioner Generator Car ,{BLACK}全称：{GOLD}25型三茂铁路空调发电车
 STR_FULL_NAME_KD25C,{BLACK}FULLNAME: {GOLD}Type 25 Air Conditioner Generator Car Type C,{BLACK}全称：{GOLD}25C型空调发电车
 STR_FULL_NAME_KD25G,{BLACK}FULLNAME: {GOLD}Type 25 Improved Air Conditioner Generator Car,{BLACK}全称：{GOLD}25系改进型空调发电车
@@ -1097,6 +1105,14 @@ STR_TAIYUAN,{ORANGE} - Taiyuan Railway Bureau,{ORANGE} - 太原铁路局
 STR_CHANGSHA2,{ORANGE} - Changsha Passenger Depot,{ORANGE} - 长沙客运段
 STR_CHANGSHA_SHENZHEN,{ORANGE} - Changsha-Shenzhen Livery,{ORANGE} - 长沙-深圳涂装
 STR_ZHENGZHOU2,{ORANGE} - Zhengzhou Railway Bureau,{ORANGE} - 郑州铁路局
+STR_BAOTOU,{WHITE} - Baotou Passenger {RED}Depot,{WHITE} - 包头客运{RED}段{BLACK}涂装
+STR_JN_XZ,{WHITE} - Jinan and {BLUE}Xuzhou Passenger {RED}Depot,{WHITE} - 济南和{BLUE}徐州客运{RED}段{BLACK}涂装
+STR_QINGDAO,{GRAY} - Qingdao {RED}Passenger {BLUE}Depot,{GRAY} - 青岛{RED}客{BLUE}运{WHITE}段{BLACK}涂装
+STR_SY_JL_COLD,{DKGREEN} - Shenyang and Jilin Passenger Depot (Cold-region Version),{DKGREEN} - 沈阳和吉林客运段{BLACK}涂装 (高寒版)
+STR_DALIAN_COLD,{GOLD} - Dalian {BLUE}Passenger {RED}Depot (Cold-region Version),{GOLD} - 大连{BLUE}客运{RED}段{BLACK}涂装 (高寒版)
+STR_CHANGCHUN_COLD,{BLUE} - Changchun {WHITE}Passenger {RED}Depot (Cold-region Version),{BLUE} - 长春{WHITE}客运{RED}段{BLACK}涂装 (高寒版)
+STR_HARBIN_COLD,{BLUE} - Harbin {WHITE}Passenger {RED}Depot (Cold-region Version),{BLUE} - 哈尔{WHITE}滨客{RED}运段{BLACK}涂装 (高寒版)
+STR_MTK_KMS_COLD,{BLUE} - Mutankiang and {WHITE}Kiamusze {GOLD}Passenger Depot (Cold-region Version),{BLUE} - 牡丹江和{WHITE}佳木斯{GOLD}客运段{BLACK}涂装 (高寒版)
 STR_NENGYEQING48,"{BLACK} - {LTBLUE}""Little Bear of Neng-Yeqing"" {BLACK}Livery","{BLACK} - {LTBLUE}""能也庆的小熊"" {BLACK}涂装"
 STR_JIXI,{BLACK} - Jixi Coal Mine Livery,{BLACK} - 鸡西煤矿涂装
 STR_DF8_ORIGINAL,{BLACK} - {BLUE}China Raiway Blue Livery,{BLACK} - {BLUE}国铁蓝色涂装
