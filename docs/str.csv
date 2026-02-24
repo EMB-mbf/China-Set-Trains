@@ -79,10 +79,11 @@ STR_NAME_RZ25B,RZ25B (Passenger Coach),RZ25B (客车)
 STR_NAME_YW25B,YW25B (Passenger Coach),YW25B (客车)
 STR_NAME_RW25B,RW25B (Passenger Coach),RW25B (客车)
 STR_NAME_CA25B,CA25G (Restaurant Car),CA25B (餐车)
-STR_NAME_YZ25B_AC,YZ25B With AC (Passenger Coach),空调YZ25B (客车)
-STR_NAME_YW25B_AC,YW25B With AC (Passenger Coach),空调YW25B (客车)
-STR_NAME_RW25B_AC,RW25B With AC (Passenger Coach),空调RW25B (客车)
-STR_NAME_CA25B_AC,CA25B With AC (Passenger Coach),空调CA25B (客车)
+STR_NAME_YZ25B_AC,YZ25B (Passenger Coach) (Air-conditioned),YZ25B (客车) (加装空调)
+STR_NAME_YW25B_AC,YW25B (Passenger Coach) (Air-conditioned),YW25B (客车) (加装空调)
+STR_NAME_RW25B_AC,RW25B (Passenger Coach) (Air-conditioned),RW25B (客车) (加装空调)
+STR_NAME_CA25B_AC,CA25B (Passenger Coach) (Air-conditioned),CA25B (客车) (加装空调)
+STR_NAME_RZ25B_GZ,RZ25B (Passenger Coach) (Guangzhou Raiway Custom Version),RZ25B (客车) (广铁定制版)
 STR_NAME_SYZ25BLD,SYZ25B (Passenger Coach) (Low-Door),SYZ25B (客车) (低开门)
 STR_NAME_SRZ25BLD,SRZ25B (Passenger Coach) (Low-Door),SRZ25B (客车) (低开门)
 STR_NAME_SYZ25BHD,SYZ25B (Passenger Coach) (High-Door),SYZ25B (客车) (高开门)
@@ -452,10 +453,11 @@ STR_FULL_NAME_RZ25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Soft Seat Passenger 
 STR_FULL_NAME_YW25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系标准型硬卧客车
 STR_FULL_NAME_RW25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Soft Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系标准型软卧客车
 STR_FULL_NAME_CA25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Restaurant Car,{BLACK}全称：{GOLD}25系标准型餐车
-STR_FULL_NAME_YZ25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Seat Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}带空调的25系标准型硬座客车
-STR_FULL_NAME_YW25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Sleeper Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}带空调的25系标准型硬卧客车
-STR_FULL_NAME_RW25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Soft Sleeper Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}带空调的25系标准型软卧客车
-STR_FULL_NAME_CA25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Restaurant Car With Air Conditioner,{BLACK}全称：{GOLD}带空调的25系标准型餐车
+STR_FULL_NAME_YZ25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Seat Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}加装空调的25系标准型硬座客车
+STR_FULL_NAME_YW25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Hard Sleeper Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}加装空调的25系标准型硬卧客车
+STR_FULL_NAME_RW25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Soft Sleeper Passenger Coach With Air Conditioner,{BLACK}全称：{GOLD}加装空调的25系标准型软卧客车
+STR_FULL_NAME_CA25B_AC,{BLACK}FULLNAME: {GOLD}Type 25 Standard Restaurant Car With Air Conditioner,{BLACK}全称：{GOLD}加装空调的25系标准型餐车
+STR_FULL_NAME_RZ25B_GZ,{BLACK}FULLNAME: {GOLD}Guangzhou Railway Custom Version of Type 25 Standard Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25系标准型软座客车广州铁路局定制版本
 STR_FULL_NAME_SYZ25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Double Decker Hard Seat Passenger Coach,{BLACK}全称：{GOLD}25系标准型双层硬座客车
 STR_FULL_NAME_SRZ25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Double Decker Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25系标准型双层软座客车
 STR_FULL_NAME_SYW25B,{BLACK}FULLNAME: {GOLD}Type 25 Standard Double Decker Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25系标准型双层硬卧客车
@@ -980,8 +982,9 @@ STR_RED_BLUE_GRAY,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray,{BLACK} - {RED}红{BL
 STR_RBG_PLUG,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray {BLACK}Version With Plug Doors,{BLACK} - {RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装，塞拉门
 STR_RBG_FOLD,{BLACK} - {RED}Red-{BLUE}Blue-{GRAY}Gray {BLACK}Version With Folding Doors,{BLACK} - {RED}红{BLUE}蓝{GRAY}灰{BLACK}相间涂装，折页门
 STR_RED_SKYBLUE_GRAY,{BLACK} - {RED}Red-{BLUE}Sky Blue-{GRAY}Gray,{BLACK} - {RED}红{BLUE}天蓝{GRAY}灰{BLACK}相间涂装
-STR_IMITATION_25K,{BLACK} - {BLACK}Imitation {BLUE}2{RED}5{WHITE}K {BLACK}Livery,{BLACK} - {BLACK}仿{BLUE}2{RED}5{WHITE}K{BLACK}涂装
-STR_IMITATION_25G,{BLACK} - {BLACK}Imitation {RED}2{ORANGE}5{WHITE}G {BLACK}Livery,{BLACK} - {BLACK}仿{RED}2{ORANGE}5{WHITE}G{BLACK}涂装
+STR_IMITATION_25K,{BLACK} - Imitation {BLUE}2{RED}5{WHITE}K {BLACK}Livery,{BLACK} - 仿{BLUE}2{RED}5{WHITE}K{BLACK}涂装
+STR_IMITATION_25G,{BLACK} - Imitation {RED}2{ORANGE}5{WHITE}G {BLACK}Livery,{BLACK} - 仿{RED}2{ORANGE}5{WHITE}G{BLACK}涂装
+STR_IMITATION_25Z,{BLACK} - Imitation {WHITE}2{BLUE}5{RED}Z {BLACK}Livery,{BLACK} - 仿{WHITE}2{BLUE}5{RED}Z{BLACK}涂装
 STR_JITONG,{BLACK} - {BLUE}Ji'ning{RED}-{WHITE}Tongliao {BLUE}Railway {BLACK}Livery,{BLACK} - {BLUE}集{RED}通{WHITE}铁{BLUE}路{BLACK}涂装
 STR_LUCHAOGANG,{BLACK} - {LTBLUE}Shanghai-Luchaogang {BLACK}Livery,{BLACK} - {LTBLUE}沪芦列车{BLACK}涂装
 STR_LIAODONG,{BLACK} - Liaodong Peninsula Livery,{BLACK} - 辽东半岛号涂装
@@ -1050,6 +1053,7 @@ STR_25T_HK,{BLACK} - Used in Guangzhou-Kowloon Railway version,{BLACK} - 广九�
 STR_25T_HK_GREEN,"{BLACK} - {DKGREEN}""Gaozu Green"" {BLACK}livery of 25T used in Guangzhou-Kowloon Railway",{BLACK} - 广九直通车的刷{DKGREEN}绿{BLACK}涂装
 STR_25T_HK_SPECIAL,{BLACK} - Used in Guangzhou-Kowloon Railway version with Facilities for the Disabled,{BLACK} - 广九直通车带残疾人设施版本
 STR_25T_HK_SPECIAL_GREEN,"{BLACK} - {DKGREEN}""Gaozu Green"" {BLACK}livery of 25T used in Guangzhou-Kowloon Railway with Facilities for the Disabled",{BLACK} - 广九直通车带残疾人设施的刷{DKGREEN}绿{BLACK}涂装
+STR_HK_LTBLUE,"{BLACK} - {LTBLUE}Light Blue Version {BLACK}Used in Guangzhou-Kowloon Railway","{BLACK} - 广九铁路{LTBLUE}天蓝色{BLACK}涂装"
 STR_QINGZANG_LOCO,{BLACK} - Qinghai-Tibet Railway Livery,{BLACK} - {DKGREEN}青藏铁路涂装
 STR_QINGZANG,{BLACK} - Qinghai-Tibet Railway Livery (Made in China),{BLACK} - {DKGREEN}青藏铁路涂装 (国产)
 STR_QINGZANG_BSP,{BLACK} - Qinghai-Tibet Railway Livery (Made by BSP),{BLACK} - {DKGREEN}青藏铁路涂装 (BSP)

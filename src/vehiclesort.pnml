@@ -242,6 +242,7 @@ sort (FEAT_TRAINS, [
     rw25b,
     yz25b_ac,
     yw25b_ac,
+    rz25b_gz,
     ca25b,
     ca25b_ac,
     xl25b,
