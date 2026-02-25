@@ -59,12 +59,15 @@ STR_NAME_YZ25ML,YZ25 (Mainline) (Passenger Coach),YZ25 (干线) (客车)
 STR_NAME_RZ25ML,RZ25 (Mainline) (Passenger Coach),RZ25 (干线) (客车)
 STR_NAME_YW25ML,YW25 (Mainline) (Passenger Coach),YW25 (干线) (客车)
 STR_NAME_RW25ML,RW25 (Mainline) (Passenger Coach),RW25 (干线) (客车)
-STR_NAME_CA25ML,CA25 (Mainline) (Restaurant Car),CA25 (干线) (客车)
+STR_NAME_CA25ML,CA25 (Mainline) (Restaurant Car),CA25 (干线) (餐车)
 STR_NAME_YZ25SM,YZ25 (Sanshui-Maoming Railway) (Passenger Coach),YZ25 (三茂铁路) (客车)
 STR_NAME_RZ25SM,RZ25 (Sanshui-Maoming Railway) (Passenger Coach),RZ25 (三茂铁路) (客车)
 STR_NAME_YW25SM,YW25 (Sanshui-Maoming Railway) (Passenger Coach),YW25 (三茂铁路) (客车)
 STR_NAME_RW25SM,RW25 (Sanshui-Maoming Railway) (Passenger Coach),RW25 (三茂铁路) (客车)
-STR_NAME_CA25SM,CA25 (Sanshui-Maoming Railway) (Restaurant Car),CA25 (三茂铁路) (客车)
+STR_NAME_CA25SM,CA25 (Sanshui-Maoming Railway) (Restaurant Car),CA25 (三茂铁路) (餐车)
+STR_NAME_RZ25HK,RZ25 (Guangzhou-Kowloon Railway) (Passenger Coach),RZ25 (广九铁路) (客车)
+STR_NAME_CA25HK,RZ25 (Guangzhou-Kowloon Railway) (Restaurant Car),CA25 (广九铁路) (餐车)
+STR_NAME_TZ25,TZ25 (Air Conditioner Generator Car),TZ25 (空调发电车)
 STR_NAME_SYZ25,SYZ25 (Passenger Coach),SYZ25 (客车)
 STR_NAME_SRZ25,SRZ25 (Passenger Coach),SRZ25 (客车)
 STR_NAME_SYW25,SYW25 (Passenger Coach),SYW25 (客车)
@@ -72,7 +75,7 @@ STR_NAME_SRW25,SRW25 (Passenger Coach),SRW25 (客车)
 STR_NAME_YZ25A,YZ25A (Passenger Coach),YZ25A (客车)
 STR_NAME_YW25A,YW25A (Passenger Coach),YW25A (客车)
 STR_NAME_RW25A,RW25A (Passenger Coach),RW25A (客车)
-STR_NAME_CA25A,CA25A (Passenger Coach),CA25A (客车)
+STR_NAME_CA25A,CA25A (Passenger Coach),CA25A (餐车)
 STR_NAME_KD25A,KD25A (Passenger Coach),KD25A (客车)
 STR_NAME_YZ25B,YZ25B (Passenger Coach),YZ25B (客车)
 STR_NAME_RZ25B,RZ25B (Passenger Coach),RZ25B (客车)
@@ -439,6 +442,9 @@ STR_FULL_NAME_RZ25SM,{BLACK}FULLNAME: {GOLD}Type 25 Sanshui-Maoming Raiway Soft 
 STR_FULL_NAME_YW25SM,{BLACK}FULLNAME: {GOLD}Type 25 Sanshui-Maoming Raiway Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25型三茂铁路硬卧客车
 STR_FULL_NAME_RW25SM,{BLACK}FULLNAME: {GOLD}Type 25 Sanshui-Maoming Raiway Soft Sleeper Passenger Coach,{BLACK}全称：{GOLD}25型三茂铁路软卧客车
 STR_FULL_NAME_CA25SM,{BLACK}FULLNAME: {GOLD}Type 25 Sanshui-Maoming Raiway Restaurant Car,{BLACK}全称：{GOLD}25型三茂铁路餐车
+STR_FULL_NAME_RZ25HK,{BLACK}FULLNAME: {GOLD}Type 25 Guangzhou-Kowloon Raiway Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25型广九铁路软座客车
+STR_FULL_NAME_CA25HK,{BLACK}FULLNAME: {GOLD}Type 25 Guangzhou-Kowloon Raiway Restaurant Car,{BLACK}全称：{GOLD}25型广九铁路餐车
+STR_FULL_NAME_TZ25,{BLACK}FULLNAME: {GOLD}Type 25 Special Purpose Car,{BLACK}全称：{GOLD}25型特种车
 STR_FULL_NAME_SYZ25,{BLACK}FULLNAME: {GOLD}Type 25 Double Decker Hard Seat Passenger Coach,{BLACK}全称：{GOLD}25型双层硬座客车
 STR_FULL_NAME_SRZ25,{BLACK}FULLNAME: {GOLD}Type 25 Double Decker Soft Seat Passenger Coach,{BLACK}全称：{GOLD}25型双层软座客车
 STR_FULL_NAME_SYW25,{BLACK}FULLNAME: {GOLD}Type 25 Double Decker Hard Sleeper Passenger Coach,{BLACK}全称：{GOLD}25型双层硬座客车
@@ -933,6 +939,7 @@ STR_LAKEBLUE,{LTBLUE} - Lake Blue Livery,{BLUE} - 湖蓝色涂装
 STR_GRASSGREEN,{DKGREEN} - Dark Green Livery,{DKGREEN} - 草绿色涂装
 STR_LATER_ORANGE,{ORANGE} - Later Orange Livery,{ORANGE} - 后期橘色涂装
 STR_LATER_GREEN,{GREEN} - Later Green Livery,{GREEN} - 后期绿色涂装
+STR_CREAM_DKBLUE,{CREAM} - Cream and {BLUE}Dark Blue {BLACK}Livery,{CREAM} - 米白色{BLUE}深蓝色{BLACK}涂装
 STR_RANDOM_COLOR,{BLACK} - Ramdom Color,{BLACK} - 随机颜色
 STR_RUSTYRED,{BROWN} - Rusty Red Color,{BROWN} - 锈红色
 STR_WITH_NAMEPLATE,{GOLD} - With Nameplate,{GOLD} - 带铭牌
@@ -1053,7 +1060,8 @@ STR_25T_HK,{BLACK} - Used in Guangzhou-Kowloon Railway version,{BLACK} - 广九�
 STR_25T_HK_GREEN,"{BLACK} - {DKGREEN}""Gaozu Green"" {BLACK}livery of 25T used in Guangzhou-Kowloon Railway",{BLACK} - 广九直通车的刷{DKGREEN}绿{BLACK}涂装
 STR_25T_HK_SPECIAL,{BLACK} - Used in Guangzhou-Kowloon Railway version with Facilities for the Disabled,{BLACK} - 广九直通车带残疾人设施版本
 STR_25T_HK_SPECIAL_GREEN,"{BLACK} - {DKGREEN}""Gaozu Green"" {BLACK}livery of 25T used in Guangzhou-Kowloon Railway with Facilities for the Disabled",{BLACK} - 广九直通车带残疾人设施的刷{DKGREEN}绿{BLACK}涂装
-STR_HK_LTBLUE,"{BLACK} - {LTBLUE}Light Blue Version {BLACK}Used in Guangzhou-Kowloon Railway","{BLACK} - 广九铁路{LTBLUE}天蓝色{BLACK}涂装"
+STR_HK_LTBLUE,"{LTBLUE} - Light Blue Version {BLACK}Used in Guangzhou-Kowloon Railway","{BLACK} - 广九铁路{LTBLUE}天蓝色{BLACK}涂装"
+STR_HK_CREAM_DKBLUE,"{CREAM}Cream and {BLUE}Dark Blue {BLACK}Version Used in Guangzhou-Kowloon Railway","{BLACK} - 广九铁路{CREAM}米黄色{BLUE}深蓝色{BLACK}涂装"
 STR_QINGZANG_LOCO,{BLACK} - Qinghai-Tibet Railway Livery,{BLACK} - {DKGREEN}青藏铁路涂装
 STR_QINGZANG,{BLACK} - Qinghai-Tibet Railway Livery (Made in China),{BLACK} - {DKGREEN}青藏铁路涂装 (国产)
 STR_QINGZANG_BSP,{BLACK} - Qinghai-Tibet Railway Livery (Made by BSP),{BLACK} - {DKGREEN}青藏铁路涂装 (BSP)

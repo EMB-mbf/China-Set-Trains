@@ -85,6 +85,9 @@
 #include "src/coaches/25/srw25.pnml"
 #include "src/coaches/25/tz2.pnml"
 #include "src/coaches/25/kd25sm.pnml"
+#include "src/coaches/25/ca25hk.pnml"
+#include "src/coaches/25/rz25hk.pnml"
+#include "src/coaches/25/tz25.pnml"
 
 #include "src/coaches/25a/yz25a.pnml"
 #include "src/coaches/25a/yw25a.pnml"
