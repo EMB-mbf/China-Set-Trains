@@ -34,6 +34,9 @@ STR_NAME_YW18_4,YW18 (Gen4) (Passenger Coach),YW18 (第四代) (客车)
 STR_NAME_RW18_4,RW18 (Gen4) (Passenger Coach),RW18 (第四代) (客车)
 STR_NAME_CA18_4,CA18 (Gen4) (Restaurant Car),CA18 (第四代) (餐车)
 STR_NAME_RW19_4,RW19 (Gen4) (Passenger Coach),RW19 (第四代) (客车)
+STR_NAME_YW18GEN5,YW18 (Gen5) (Passenger Coach),YW18 (第五代) (客车)
+STR_NAME_RW19GEN5,RW19 (Gen5) (Passenger Coach),RW19 (第五代) (客车)
+STR_NAME_KD18GEN5,KD18 (Gen5) (Air Conditioner Generator Car),KD18 (第五代) (空调发电车)
 STR_NAME_YZ21,YZ21 (Passenger Coach),YZ21 (客车)
 STR_NAME_YZ21_EARLY,YZ21 (Passenger Coach) (Early Version),YZ21 (客车) (早期型)
 STR_NAME_YZ21_IMPROVED,YZ21 (Passenger Coach) (Improved Version),YZ21 (客车) (改进型)
@@ -132,6 +135,7 @@ STR_NAME_RW25T_JT,RW25T (Coston Version for Jitong Railway) (Passenger Coach),RW
 STR_NAME_CA25T,CA25T (Restaurant Car),CA25T (餐车)
 STR_NAME_YZ31,YZ31 (Passenger Coach),YZ31 (客车)
 STR_NAME_XL18_4,XL18 (Gen4) (Luggage Car),XL18 (第四代) (行李车)
+STR_NAME_XL18GEN5,XL18 (Gen5) (Luggage Car),XL18 (第五代) (行李车)
 STR_NAME_XL21,XL21 (Luggage Car),XL21 (行李车)
 STR_NAME_XL22,XL22 (Luggage Car),XL22 (行李车)
 STR_NAME_XL25ML,XL25 (Mainline) (Luggage Car),XL25 (干线) (行李车)
@@ -518,6 +522,7 @@ STR_FULL_NAME_UZ25K,{BLACK}FULLNAME: {GOLD}Type 25 Rapid Railway Post Office,{BL
 STR_FULL_NAME_UZ25T,{BLACK}FULLNAME: {GOLD}Type 25 Accelerated Railway Post Office,{BLACK}全称：{GOLD}25系提速型邮政车
 STR_FULL_NAME_TZ,{BLACK}FULLNAME: {GOLD}Special Purpose Car,{BLACK}全称：{GOLD}特种车
 STR_FULL_NAME_TZ2,{BLACK}FULLNAME: {GOLD}Special Purpose Car Type 2 {BLACK}(Or Type 25 Improved Air Conditioner Generator Car),{BLACK}全称：{GOLD}2型特种车 {BLACK}(25改进型空调发电车)
+STR_FULL_NAME_KD18,{BLACK}FULLNAME: {GOLD}Type 18 Air Conditioner Generator Car,{BLACK}全称：{GOLD}18型空调发电车
 STR_FULL_NAME_KD25SM,{BLACK}FULLNAME: {GOLD}Type 25 Sanshui-Maoming Railway Air Conditioner Generator Car ,{BLACK}全称：{GOLD}25型三茂铁路空调发电车
 STR_FULL_NAME_KD25C,{BLACK}FULLNAME: {GOLD}Type 25 Air Conditioner Generator Car Type C,{BLACK}全称：{GOLD}25C型空调发电车
 STR_FULL_NAME_KD25G,{BLACK}FULLNAME: {GOLD}Type 25 Improved Air Conditioner Generator Car,{BLACK}全称：{GOLD}25系改进型空调发电车

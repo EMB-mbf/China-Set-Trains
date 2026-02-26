@@ -43,6 +43,10 @@
 #include "src/coaches/18/rw19gen4.pnml"
 #include "src/coaches/18/xl18gen4.pnml"
 #include "src/coaches/18/ca18gen4.pnml"
+#include "src/coaches/18/rw19gen5.pnml"
+#include "src/coaches/18/yw18gen5.pnml"
+#include "src/coaches/18/kd18gen5.pnml"
+#include "src/coaches/18/xl18gen5.pnml"
 
 #include "src/coaches/21/yz21.pnml"
 #include "src/coaches/21/yw21.pnml"
